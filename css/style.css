@@ -1,19 +1,71 @@
-header {
+/* 共通 */
+  .width-100 {
+    width: 100%;
+  }
+
+  .text-align-center {
+    text-align: center;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .m-b-80 {
+    margin-bottom: 80px;
+  }
+  
+  .m-b-90 {
+    margin-bottom: 90px;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+
+  .color-white {
+    color: #fff;
+  }
+
+  .font-16 {
+    font-size: 16px;
+  }
+
+  .font-24 {
+    font-size: 24px;
+  }
+
+  .line-height-30 {
+    line-height: 30px;
+  }
+
+  .m-l-180 {
+    margin-left: 180px;
+  }
+
+  .m-l-180:first-child {
+    margin-left: 0;
+  }
+
+  .m-b-10 {
+    margin-bottom: 10px;
+  }
+
+  .m-b-40 {
+    margin-bottom: 40px;
+  }
+/* 共通 */
+
+.header {
   padding: 15px 0;
   background-color:#fff;
-  display: flex;
   justify-content: space-around;
 }
 
-.width-100 {
-  width: 100%;
-}
-
-.contact-button {
+.contact-btn {
   font-size: 12px;
   padding: 14px 12px;
   background-color: #74cfae;
-  color: #fff;
 }
 
 .main-theme {
@@ -33,6 +85,58 @@ header {
   color: #c0c0c0;
 }
 
-.text-align-center {
-  text-align: center;
+.section {
+  background-color: #74cfae;
+  padding-top: 50px;
+  justify-content: space-evenly;
 }
+
+.what-we {
+  margin-bottom: 35px;
+}
+
+.sub-what-we {
+  font-size: 20px;
+  /* word-break: break-all; */
+}
+
+.article {
+  background-color: #f2f2f2;
+  padding: 60px 0 70px 0;
+}
+
+.our-latest-work {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.work-img {
+  justify-content: center;
+}
+
+.work-img img {
+  margin-left: 100px;
+}
+
+.work-img img:first-child {
+  margin-left: 0;
+}
+
+.email-btn {
+  font-size: 12px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+  margin-left: 90px;
+  display: block;
+}
+
+.our-skills {
+  width: 100%;
+  background-color: #4e4e4e;
+  padding: 70px 0 100px 0;
+}
+
+
+
+
