@@ -1,12 +1,8 @@
-/* 共通 */
+/* デザイン */
   .clearfix::after {
     content: " ";
     display: block;
     clear: both;
-  }
-
-  .width-100 {
-    width: 100%;
   }
 
   .text-align-center {
@@ -21,6 +17,38 @@
     justify-content: center;
   }
 
+  .btn {
+    height: 12px;
+    font-size: 12px;
+    padding: 14px 20px;
+    background-color: #74cfae;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    color: #333;
+  }
+
+  .transition {
+    transition-duration: .3s;
+  }
+
+  .font-raleway {
+    font-family: 'Raleway';
+  }
+
+  .font-lato {
+    font-family: 'Lato';
+  }
+
+
+
+
+
+  .width-100 {
+    width: 100%;
+  }
+  
   .color-white {
     color: #fff;
   }
@@ -53,20 +81,18 @@
     margin-bottom: 40px;
   }
 
-  .btn {
-    text-decoration: none;
+  .back-color-f2f2f2 {
+    background-color: #f2f2f2;
   }
 
-  .btn:hover {
-    color: #333;
+  .back-color-74cfae {
+    background-color: #74cfae;
   }
+/* デザイン */
 
-  .transition {
-    transition-duration: .3s;
-  }
 
-  .
-/* 共通 */
+
+
 
 .header {
   padding: 15px 0;
@@ -74,14 +100,7 @@
   justify-content: space-around;
 }
 
-.contact-btn {
-  font-size: 12px;
-  padding: 14px 12px;
-  background-color: #74cfae;
-}
-
 .main-theme {
-  background-color: #f2f2f2;
   padding: 250px 0;
 }
 
@@ -98,7 +117,6 @@
 }
 
 .section {
-  background-color: #74cfae;
   padding-top: 50px;
   justify-content: space-evenly;
 }
@@ -112,7 +130,6 @@
 }
 
 .article {
-  background-color: #f2f2f2;
   padding: 60px 150px 70px 150px;
 
 }
@@ -124,7 +141,6 @@
 }
 
 .work-img {
-  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 90px;
 }
@@ -142,10 +158,6 @@
 }
 
 .email-btn {
-  height: 12px;
-  font-size: 12px;
-  padding: 14px 20px;
-  background-color: #74cfae;
   margin-left: 90px;
 }
 
@@ -157,7 +169,6 @@
 
 .nav {
   padding: 200px 0;
-  background-color: #f2f2f2;
 }
 
 .sns {
@@ -168,7 +179,6 @@
 .icon {
   width: 185px;
   height: 80px;
-  justify-content: center;
   align-items: center;
 }
 
@@ -177,7 +187,6 @@
 }
 
 .footer {
-  background-color: #74cfae;
   padding: 20px 0 25px 0;
 }
 
