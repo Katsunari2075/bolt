@@ -1,4 +1,10 @@
 /* 共通 */
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
   .width-100 {
     width: 100%;
   }
@@ -97,7 +103,6 @@
 
 .sub-what-we {
   font-size: 20px;
-  /* word-break: break-all; */
 }
 
 .article {
@@ -135,6 +140,35 @@
   width: 100%;
   background-color: #4e4e4e;
   padding: 70px 0 100px 0;
+}
+
+.nav {
+  padding: 200px 0;
+  background-color: #f2f2f2;
+}
+
+.sns {
+  margin: 0 auto;
+  width: 740px;
+}
+
+.icon {
+  width: 185px;
+  height: 80px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.footer {
+  background-color: #74cfae;
+  padding: 20px 0 25px 0;
+}
+
+.footer-text {
+  color: #fff;
+  float: right;
+  margin-right:  200px;
+  font-size: small;
 }
 
 
