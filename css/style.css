@@ -52,6 +52,20 @@
   .m-b-40 {
     margin-bottom: 40px;
   }
+
+  .btn {
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    color: #333;
+  }
+
+  .transition {
+    transition-duration: .3s;
+  }
+
+  .
 /* 共通 */
 
 .header {
@@ -154,8 +168,12 @@
 .icon {
   width: 185px;
   height: 80px;
-  vertical-align: middle;
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon:hover {
+  background-color: #fff;
 }
 
 .footer {
