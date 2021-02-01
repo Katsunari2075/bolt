@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* PC */
-/* @media screen and (min-width: 1200px) { */
+@media (min-width: 1200px) {
   
   /* デザイン */
   .clearfix::after {
@@ -97,11 +97,11 @@
     margin-top: 90px;
   }
 
-  .back-color-f2f2f2 {
+  .common-f2f2f2 {
     background-color: #f2f2f2;
   }
 
-  .back-color-74cfae {
+  .common-74cfae {
     background-color: #74cfae;
   }
   /* デザイン */
@@ -220,23 +220,23 @@
     font-size: small;
   }
 
-/* } */
+}
 /* PC */
 
 
 
 /* TAB */
-/* @media only screen and (min-width: 768px) and (max-width: 1199px) {
-
-} */
+@media (min-width: 768px) and (max-width: 1199px) {
+  
+}
 /* TAB */
 
 
 
 /* phone */
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
-} */
+}
 /* phone */
 
 
