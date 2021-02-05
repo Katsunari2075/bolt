@@ -56,6 +56,23 @@
   justify-content: center;
 }
 
+.img {
+  opacity: 0.7;
+  z-index: 2;
+}
+
+.img:hover {
+  opacity: 1;
+}
+
+.btn:hover {
+  color: #333;
+}
+
+.icon:hover {
+  background-color: #fff;
+}
+
 /* common */
 
 
@@ -77,16 +94,8 @@
     background-color: #74cfae;
   }
 
-  .btn:hover {
-    color: #333;
-  }
-
   .margin-0-auto {
     margin: 0 auto;
-  }
-
-  .br-tab {
-    display: none;
   }
 
   .font-16 {
@@ -181,15 +190,6 @@
     margin-left: 0;
   }
 
-  .img {
-    opacity: 0.7;
-    z-index: 2;
-  }
-
-  .img:hover {
-    opacity: 1;
-  }
-
   .email-btn {
     margin-left: 90px;
   }
@@ -214,10 +214,6 @@
     align-items: center;
   }
 
-  .icon:hover {
-    background-color: #fff;
-  }
-
   .footer {
     padding: 20px 0 25px 0;
   }
@@ -227,7 +223,6 @@
     float: right;
     font-size: small;
   }
-
 }
 /* PC */
 
@@ -235,6 +230,39 @@
 
 /* TAB */
 @media (min-width: 768px) and (max-width: 1199px) {
+
+  /* デザイン */
+  .margin-0-auto {
+    margin: 0 auto;
+  }
+
+  .display-flex {
+    display: flex;
+  }
+
+  .section .display-flex {
+    display: block;
+  }
+
+  .display-block {
+    display: block;
+  }
+
+  .m-t-80 {
+    margin-top: 80px;
+  }
+
+  .m-t-40 {
+    margin-top: 40px;
+  }
+
+  .m-t-10 {
+    margin-top: 10px;
+  }
+
+
+  /* デザイン */
+  
 
   .inner {
     width: 668px;
@@ -250,27 +278,11 @@
     z-index: 2;
   }
 
-  .margin-0-auto {
-    margin: 0 auto;
-  }
-
-  .display-flex {
-    display: flex;
-  }
-
-  .section .display-flex {
-    display: block;
-  }
-
   .btn {
     height: 12px;
     font-size: 12px;
     padding: 14px 20px;
     background-color: #74cfae;
-  }
-
-  .btn:hover {
-    color: #333;
   }
 
   .main-theme {
@@ -293,10 +305,6 @@
     padding: 50px 0 25px 0;
   }
 
-  .phone-img {
-    display: block;
-  }
-
   .what-we {
     margin-top: 20px;
   }
@@ -316,33 +324,7 @@
     width: 300px;
   }
 
-  .article .inner .work-img {
-    display: block;
-  }
-
   .work-img a:nth-child(4) {
-    margin-top: 80px;
-    display: block;
-  }
-
-  .article .inner .not-flex {
-    display: block;
-  }
-
-  .our-skills .display-flex {
-    display: block;
-  }
-
-  .img {
-    opacity: 0.7;
-    z-index: 2;
-  }
-
-  .img:hover {
-    opacity: 1;
-  }
-
-  .m-t-80 {
     margin-top: 80px;
   }
 
@@ -357,10 +339,6 @@
     padding: 70px 0 100px 0;
   }
 
-  .m-t-40 {
-    margin-top: 40px;
-  }
-
   .skill-img {
     margin-top: 88px;
     text-align: center;
@@ -368,10 +346,6 @@
 
   .skill-img:first-child {
     margin-top: 0;
-  }
-
-  .m-t-10 {
-    margin-top: 10px;
   }
 
   .nav {
@@ -388,10 +362,6 @@
     align-items: center;
   }
 
-  .icon:hover {
-    background-color: #fff;
-  }
-
   .footer {
     padding: 20px 0 25px 0;
   }
@@ -400,10 +370,6 @@
     color: #fff;
     float: right;
     font-size: small;
-  }
-
-  .br-pc {
-    display: none;
   }
 }
 /* TAB */
