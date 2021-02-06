@@ -407,6 +407,57 @@
     color: #c0c0c0;
     margin-top: 20px;
   }
+
+  .section {
+    padding: 50px 0 25px 0;
+  }
+
+  .what-we {
+    margin-top: 20px;
+  }
+
+  .sub-what-we {
+    font-size: 20px;
+    margin-top: 35px;
+  }
+
+  .display-block {
+    display: block;
+  }
+
+  .margin-0-auto {
+    margin: 0 auto;
+  }
+
+  .article {
+    padding: 60px 0 70px 0;
+  }
+
+  .work-img {
+    margin-top: 40px;
+    margin: 40px auto 0 auto;
+    width: 300px;
+  }
+
+  .work-img a:nth-child(4) {
+    margin-top: 80px;
+  }
+
+  .m-t-80 {
+    margin-top: 80px;
+  }
+
+  .email-btn {
+    margin: 40px auto 0 auto;
+    display: inline-block;
+  }
+
+  .btn {
+    height: 12px;
+    font-size: 12px;
+    padding: 14px 20px;
+    background-color: #74cfae;
+  }
 }
 /* phone */
 
