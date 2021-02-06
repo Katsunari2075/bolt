@@ -378,7 +378,35 @@
 
 /* phone */
 @media screen and (max-width: 767px) {
+  .inner {
+    padding: 0 15px;
+    justify-content: space-between;
+  }
 
+  .header {
+    width: 100%;
+    padding: 15px 0;
+    background-color:#fff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  .main-theme {
+    padding: 160px 0 130px 0;
+  }
+
+  .bolt-theme {
+    font-size: 80px;
+    font-weight: 700;
+    color: #74cfae;
+  }
+
+  .sub-bolt-theme {
+    font-size: 30px;
+    color: #c0c0c0;
+    margin-top: 20px;
+  }
 }
 /* phone */
 
