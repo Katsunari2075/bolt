@@ -259,8 +259,6 @@
   .m-t-10 {
     margin-top: 10px;
   }
-
-
   /* デザイン */
   
 
@@ -458,6 +456,46 @@
     padding: 14px 20px;
     background-color: #74cfae;
   }
+
+  .our-skills {
+    width: 100%;
+    background-color: #4e4e4e;
+    padding: 70px 0 100px 0;
+  }
+
+  .skill-img {
+    margin-top: 88px;
+    text-align: center;
+  }
+
+  .skill-img:first-child {
+    margin-top: 0;
+  }
+
+  .m-t-40 {
+    margin-top: 40px;
+  }
+
+  .m-t-10 {
+    margin-top: 10px;
+  }
+
+  .nav {
+    padding: 50px 15px;
+  }
+
+  .icon {
+    width: 185px;
+    height: 80px;
+    padding: 16px 0;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* 一通り全体のデザインを進めていく。その後、細かい部分の修正をする。
+  displayの解除を進めていく。 */
 }
 /* phone */
 
