@@ -494,8 +494,15 @@
     margin: 0 auto;
   }
 
-  /* 一通り全体のデザインを進めていく。その後、細かい部分の修正をする。
-  displayの解除を進めていく。 */
+  .footer {
+    padding: 20px 0 25px 0;
+  }
+
+  .footer-text {
+    color: #fff;
+    float: right;
+    font-size: small;
+  }
 }
 /* phone */
 
