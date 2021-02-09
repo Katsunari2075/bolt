@@ -8,6 +8,46 @@
   clear: both;
 }
 
+.header {
+  padding: 15px 0;
+  background-color:#fff;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.sub-bolt-theme {
+  font-size: 30px;
+  color: #c0c0c0;
+  margin-top: 20px;
+}
+
+.sub-what-we {
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+.article {
+  padding: 60px 0 70px 0;
+}
+
+.our-skills {
+  background-color: #4e4e4e;
+  padding: 70px 0 100px 0;
+}
+
+.footer {
+  padding: 20px 0 25px 0;
+}
+
+.footer-text {
+  color: #fff;
+  float: right;
+  font-size: small;
+}
+
+
+
 .text-align-center {
   text-align: center;
 }
@@ -77,6 +117,25 @@
   background-color: #fff;
 }
 
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+.btn {
+  height: 12px;
+  font-size: 12px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
 /* common */
 
 
@@ -91,17 +150,6 @@
     display: flex;
   }
 
-  .btn {
-    height: 12px;
-    font-size: 12px;
-    padding: 14px 20px;
-    background-color: #74cfae;
-  }
-
-  .margin-0-auto {
-    margin: 0 auto;
-  }
-
   .font-16 {
     font-size: 16px;
   }
@@ -112,14 +160,6 @@
 
   .m-l-180:first-child {
     margin-left: 0;
-  }
-
-  .m-t-10 {
-    margin-top: 10px;
-  }
-
-  .m-t-40 {
-    margin-top: 40px;
   }
 
   .m-t-90 {
@@ -133,12 +173,8 @@
     width: 1100px;
   }
 
-  .header {
-    padding: 15px 0;
-    background-color:#fff;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+  .menu-btn {
+    display: none;
   }
 
   .main-theme {
@@ -151,24 +187,9 @@
     color: #74cfae;
   }
 
-  .sub-bolt-theme {
-    font-size: 30px;
-    color: #c0c0c0;
-    margin-top: 20px;
-  }
-
   .section {
     padding-top: 50px;
     justify-content: space-evenly;
-  }
-
-  .sub-what-we {
-    font-size: 20px;
-    margin-top: 35px;
-  }
-
-  .article {
-    padding: 60px 0 70px 0;
   }
 
   .our-latest-work {
@@ -197,12 +218,6 @@
     margin-left: 90px;
   }
 
-  .our-skills {
-    width: 100%;
-    background-color: #4e4e4e;
-    padding: 70px 0 100px 0;
-  }
-
   .nav {
     padding: 200px 0;
   }
@@ -216,16 +231,6 @@
     height: 80px;
     align-items: center;
   }
-
-  .footer {
-    padding: 20px 0 25px 0;
-  }
-
-  .footer-text {
-    color: #fff;
-    float: right;
-    font-size: small;
-  }
 }
 /* PC */
 
@@ -235,9 +240,6 @@
 @media (min-width: 768px) and (max-width: 1199px) {
 
   /* デザイン */
-  .margin-0-auto {
-    margin: 0 auto;
-  }
 
   .display-flex {
     display: flex;
@@ -254,14 +256,6 @@
   .m-t-80 {
     margin-top: 80px;
   }
-
-  .m-t-40 {
-    margin-top: 40px;
-  }
-
-  .m-t-10 {
-    margin-top: 10px;
-  }
   /* デザイン */
   
 
@@ -269,20 +263,8 @@
     width: 668px;
   }
 
-  .header {
-    width: 100%;
-    padding: 15px 0;
-    background-color:#fff;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-  }
-
-  .btn {
-    height: 12px;
-    font-size: 12px;
-    padding: 14px 20px;
-    background-color: #74cfae;
+  .menu-btn {
+    display: none;
   }
 
   .main-theme {
@@ -295,27 +277,12 @@
     color: #74cfae;
   }
 
-  .sub-bolt-theme {
-    font-size: 30px;
-    color: #c0c0c0;
-    margin-top: 20px;
-  }
-
   .section {
     padding: 50px 0 25px 0;
   }
 
   .what-we {
     margin-top: 20px;
-  }
-
-  .sub-what-we {
-    font-size: 20px;
-    margin-top: 35px;
-  }
-
-  .article {
-    padding: 60px 0 70px 0;
   }
 
   .work-img {
@@ -331,12 +298,6 @@
   .email-btn {
     margin: 40px auto 0 auto;
     display: inline-block;
-  }
-
-  .our-skills {
-    width: 100%;
-    background-color: #4e4e4e;
-    padding: 70px 0 100px 0;
   }
 
   .skill-img {
@@ -361,16 +322,6 @@
     height: 80px;
     align-items: center;
   }
-
-  .footer {
-    padding: 20px 0 25px 0;
-  }
-
-  .footer-text {
-    color: #fff;
-    float: right;
-    font-size: small;
-  }
 }
 /* TAB */
 
@@ -378,6 +329,18 @@
 
 /* phone */
 @media screen and (max-width: 767px) {
+
+  /* デザイン */
+  .display-block {
+    display: block;
+  }
+
+  .m-t-80 {
+    margin-top: 80px;
+  }
+  /* デザイン */
+
+
   .inner {
     padding: 0 15px;
   }
@@ -386,13 +349,42 @@
     display: flex;
   }
 
-  .header {
-    width: 100%;
-    padding: 15px 0;
-    background-color:#fff;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+  .contact-btn {
+    display: none;
+  }
+
+  .menu-btn {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 22px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+  }
+
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    height: 3px;
+    width: 30px;
+    border-radius: 3px;
+    content: '';
+    display: block;
+    background-color: #ddd;
+    position: absolute;
+  }
+
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+
+  .menu-btn span:after {
+    top: 8px;
   }
 
   .main-theme {
@@ -405,35 +397,12 @@
     color: #74cfae;
   }
 
-  .sub-bolt-theme {
-    font-size: 30px;
-    color: #c0c0c0;
-    margin-top: 20px;
-  }
-
   .section {
     padding: 50px 0 25px 0;
   }
 
   .what-we {
     margin-top: 20px;
-  }
-
-  .sub-what-we {
-    font-size: 20px;
-    margin-top: 35px;
-  }
-
-  .display-block {
-    display: block;
-  }
-
-  .margin-0-auto {
-    margin: 0 auto;
-  }
-
-  .article {
-    padding: 60px 0 70px 0;
   }
 
   .work-img {
@@ -446,26 +415,9 @@
     margin-top: 80px;
   }
 
-  .m-t-80 {
-    margin-top: 80px;
-  }
-
   .email-btn {
     margin: 40px auto 0 auto;
     display: inline-block;
-  }
-
-  .btn {
-    height: 12px;
-    font-size: 12px;
-    padding: 14px 20px;
-    background-color: #74cfae;
-  }
-
-  .our-skills {
-    width: 100%;
-    background-color: #4e4e4e;
-    padding: 70px 0 100px 0;
   }
 
   .skill-img {
@@ -475,14 +427,6 @@
 
   .skill-img:first-child {
     margin-top: 0;
-  }
-
-  .m-t-40 {
-    margin-top: 40px;
-  }
-
-  .m-t-10 {
-    margin-top: 10px;
   }
 
   .nav {
@@ -497,16 +441,6 @@
     box-sizing: border-box;
     text-align: center;
     margin: 0 auto;
-  }
-
-  .footer {
-    padding: 20px 0 25px 0;
-  }
-
-  .footer-text {
-    color: #fff;
-    float: right;
-    font-size: small;
   }
 }
 /* phone */
