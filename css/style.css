@@ -56,6 +56,10 @@
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .img {
   opacity: 0.7;
   z-index: 2;
@@ -127,7 +131,6 @@
 
   .inner {
     width: 1100px;
-    justify-content: space-between;
   }
 
   .header {
@@ -264,7 +267,6 @@
 
   .inner {
     width: 668px;
-    justify-content: space-between;
   }
 
   .header {
@@ -378,7 +380,10 @@
 @media screen and (max-width: 767px) {
   .inner {
     padding: 0 15px;
-    justify-content: space-between;
+  }
+
+  .header .inner {
+    display: flex;
   }
 
   .header {
