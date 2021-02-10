@@ -434,8 +434,8 @@
   }
 
   .icon {
-    width: 185px;
-    padding: 16px 0;
+    width: 100%;
+    padding: 30px 0;
     display: block;
     box-sizing: border-box;
     text-align: center;
