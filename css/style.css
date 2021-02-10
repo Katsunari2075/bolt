@@ -228,7 +228,7 @@
 
   .icon {
     width: 185px;
-    height: 80px;
+    padding: 16px 0;
     align-items: center;
   }
 }
@@ -319,7 +319,7 @@
 
   .icon {
     width: 185px;
-    height: 80px;
+    padding: 16px 0;
     align-items: center;
   }
 }
@@ -435,7 +435,6 @@
 
   .icon {
     width: 185px;
-    height: 80px;
     padding: 16px 0;
     display: block;
     box-sizing: border-box;
