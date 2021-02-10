@@ -291,7 +291,7 @@
     width: 300px;
   }
 
-  .work-img a:nth-child(4) {
+  .work-img a:nth-child(4n) {
     margin-top: 80px;
   }
 
@@ -411,7 +411,7 @@
     width: 300px;
   }
 
-  .work-img a:nth-child(4) {
+  .work-img a:nth-child(4n) {
     margin-top: 80px;
   }
 
