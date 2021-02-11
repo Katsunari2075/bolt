@@ -25,10 +25,17 @@
 .sub-what-we {
   font-size: 20px;
   margin-top: 35px;
+  width: 100%;
+  word-break: normal;
 }
 
 .article {
   padding: 60px 0 70px 0;
+}
+
+.our-latest-work-text {
+  width: 100%;
+  word-break: normal;
 }
 
 .our-skills {
@@ -192,9 +199,21 @@
     justify-content: space-evenly;
   }
 
+  .sub-what-we {
+    font-size: 20px;
+    margin-top: 35px;
+    width: 647px;
+    word-break: normal;
+  }
+
   .our-latest-work {
     font-size: 24px;
     color: #333;
+  }
+
+  .our-latest-work-text {
+    width: 454px;
+    word-break: normal;
   }
 
   .work-img {
