@@ -16,6 +16,10 @@
   z-index: 2;
 }
 
+.contact-btn {
+  padding: 14px 12px;
+}
+
 .sub-bolt-theme {
   font-size: 30px;
   color: #c0c0c0;
@@ -131,7 +135,6 @@
 .btn {
   height: 12px;
   font-size: 12px;
-  padding: 14px 20px;
   background-color: #74cfae;
 }
 
@@ -234,6 +237,7 @@
   }
 
   .email-btn {
+    padding: 14px 20px;
     margin-left: 90px;
   }
 
@@ -315,6 +319,7 @@
   }
 
   .email-btn {
+    padding: 14px 20px;
     margin: 40px auto 0 auto;
     display: inline-block;
   }
@@ -435,6 +440,7 @@
   }
 
   .email-btn {
+    padding: 14px 20px;
     margin: 40px auto 0 auto;
     display: inline-block;
   }
