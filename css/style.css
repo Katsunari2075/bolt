@@ -221,15 +221,15 @@
     margin-top: 40px;
   }
 
-  .work-img a {
+  .work-img li  {
     margin-left: 100px;
   }
 
-  .work-img a:nth-child(n+4) {
+  .work-img li:nth-child(n+4) {
     margin-top: 80px;
   }
 
-  .work-img a:nth-child(3n+1) {
+  .work-img li:nth-child(3n+1) {
     margin-left: 0;
   }
 
@@ -310,7 +310,7 @@
     width: 300px;
   }
 
-  .work-img a:nth-child(4n) {
+  .work-img li:nth-child(4n) {
     margin-top: 80px;
   }
 
@@ -430,7 +430,7 @@
     width: 300px;
   }
 
-  .work-img a:nth-child(4n) {
+  .work-img li:nth-child(4n) {
     margin-top: 80px;
   }
 
