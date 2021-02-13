@@ -314,8 +314,8 @@
     width: 300px;
   }
 
-  .work-img li:nth-child(4n) {
-    margin-top: 80px;
+  .work-img li:nth-child(3n) {
+    margin-bottom: 80px;
   }
 
   .email-btn {
