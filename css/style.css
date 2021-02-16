@@ -293,8 +293,12 @@ body {
     width: 300px;
   }
 
-  .work-img li:nth-child(3n) {
-    margin-bottom: 80px;
+  .work-img li:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+
+  .work-img li:first-child {
+    margin-top: 0;
   }
 
   .email-btn {
