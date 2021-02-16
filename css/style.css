@@ -96,7 +96,7 @@
   font-family: 'Raleway';
 }
 
-.font-lato {
+body {
   font-family: 'Lato';
 }
 
@@ -275,45 +275,9 @@
 
 
 
-/* TAB */
-@media (min-width: 768px) and (max-width: 1199px) {
-
-  /* デザイン */
-
-  .display-flex {
-    display: flex;
-  }
-
-  .section .display-flex {
-    display: block;
-  }
-
-  .display-block {
-    display: block;
-  }
-
-  .m-t-80 {
-    margin-top: 80px;
-  }
-  /* デザイン */
-  
-
+@media (max-width: 1199px) {
   .inner {
     width: 97%;
-  }
-
-  .menu-btn {
-    display: none;
-  }
-
-  .main-theme {
-    padding: 328px 0 250px 0;
-  }
-
-  .bolt-theme {
-    font-size: 90px;
-    font-weight: 700;
-    color: #74cfae;
   }
 
   .section {
@@ -349,141 +313,143 @@
     margin-top: 0;
   }
 
-  .nav {
-    padding: 200px 0;
-  }
-
-  .sns {
-    width: 740px;
-  }
-
-  .sns li a {
-    width: 185px;
-    padding: 16px 0;
-    align-items: center;
-  }
-}
-/* TAB */
-
-
-
-/* phone */
-@media screen and (max-width: 767px) {
-
-  /* デザイン */
-  .display-block {
-    display: block;
-  }
-
   .m-t-80 {
     margin-top: 80px;
   }
-  /* デザイン */
 
 
-  .inner {
-    width: 97%;
+  /* TAB */
+  @media (min-width: 768px) {
+
+    /* デザイン */
+
+    .display-flex {
+      display: flex;
+    }
+
+    .display-block {
+      display: block;
+    }
+
+    .section .display-flex {
+      display: block;
+    }
+
+    /* デザイン */
+    
+
+    .menu-btn {
+      display: none;
+    }
+
+    .main-theme {
+      padding: 328px 0 250px 0;
+    }
+
+    .bolt-theme {
+      font-size: 90px;
+      font-weight: 700;
+      color: #74cfae;
+    }
+
+    .nav {
+      padding: 200px 0;
+    }
+
+    .sns {
+      width: 740px;
+    }
+
+    .sns li a {
+      width: 185px;
+      padding: 16px 0;
+      align-items: center;
+    }
   }
+  /* TAB */
 
-  .header .inner {
-    display: flex;
-  }
 
-  .contact-btn {
-    display: none;
-  }
 
-  .menu-btn {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    height: 22px;
-    width: 37px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 15px;
-    right: 15px;
-  }
+  /* phone */
+  @media (max-width: 767px) {
 
-  .menu-btn span,
-  .menu-btn span:before,
-  .menu-btn span:after {
-    height: 3px;
-    width: 30px;
-    border-radius: 3px;
-    content: '';
-    display: block;
-    background-color: #ddd;
-    position: absolute;
-  }
+    /* デザイン */
 
-  .menu-btn span:before {
-    bottom: 8px;
-  }
+    .display-block {
+      display: block;
+    }
 
-  .menu-btn span:after {
-    top: 8px;
-  }
+    /* デザイン */
 
-  .main-theme {
-    padding: 238px 0 130px 0;
-  }
 
-  .bolt-theme {
-    font-size: 80px;
-    font-weight: 700;
-    color: #74cfae;
-  }
 
-  .section {
-    padding: 50px 0 25px 0;
-  }
+    .header .inner {
+      display: flex;
+    }
 
-  .what-we {
-    margin-top: 20px;
-  }
+    .contact-btn {
+      display: none;
+    }
 
-  .work-img {
-    margin-top: 40px;
-    margin: 40px auto 0 auto;
-    width: 300px;
-  }
+    .menu-btn {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      height: 22px;
+      width: 37px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 15px;
+      right: 15px;
+    }
 
-  .work-img li:nth-child(3n) {
-    margin-bottom: 80px;
-  }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+      height: 3px;
+      width: 30px;
+      border-radius: 3px;
+      content: '';
+      display: block;
+      background-color: #ddd;
+      position: absolute;
+    }
 
-  .email-btn {
-    padding: 14px 20px;
-    margin: 40px auto 0 auto;
-    display: inline-block;
-  }
+    .menu-btn span:before {
+      bottom: 8px;
+    }
 
-  .skill-img {
-    margin-top: 88px;
-    text-align: center;
-  }
+    .menu-btn span:after {
+      top: 8px;
+    }
 
-  .skill-img:first-child {
-    margin-top: 0;
-  }
+    .main-theme {
+      padding: 238px 0 130px 0;
+    }
 
-  .nav {
-    padding: 50px 15px;
-  }
+    .bolt-theme {
+      font-size: 80px;
+      font-weight: 700;
+      color: #74cfae;
+    }
 
-  .sns li a {
-    width: 100%;
-    padding: 30px 0;
-    display: block;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0 auto;
+    .nav {
+      padding: 50px 15px;
+    }
+
+    .sns li a {
+      width: 100%;
+      padding: 30px 0;
+      display: block;
+      box-sizing: border-box;
+      text-align: center;
+      margin: 0 auto;
+    }
   }
+  /* phone */
 }
-/* phone */
 
 
 
