@@ -169,7 +169,7 @@ body {
 
 
 /* PC */
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   
   /* デザイン */
 
@@ -275,7 +275,7 @@ body {
 
 
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .inner {
     width: 97%;
   }
@@ -322,7 +322,7 @@ body {
 
 
   /* TAB */
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
 
     /* デザイン */
 
@@ -370,7 +370,7 @@ body {
 
 
   /* phone */
-  @media (max-width: 767px) {
+  @media screen and (max-width: 767px) {
 
     /* デザイン */
 
