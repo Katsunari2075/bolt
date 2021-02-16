@@ -80,6 +80,10 @@
   color: #fff;
 }
 
+.color-333 {
+  color: #333;
+}
+
 .font-raleway {
   font-family: 'Raleway';
 }
@@ -211,7 +215,6 @@
 
   .our-latest-work {
     font-size: 24px;
-    color: #333;
   }
 
   .our-latest-work-text {
