@@ -289,7 +289,6 @@ body {
   }
 
   .work-img {
-    margin-top: 40px;
     margin: 40px auto 0 auto;
     width: 300px;
   }
@@ -327,11 +326,7 @@ body {
       display: flex;
     }
 
-    .display-block {
-      display: block;
-    }
-
-    .section .display-flex {
+    .display-block, .section .display-flex {
       display: block;
     }
 
