@@ -64,6 +64,10 @@
   text-align: center;
 }
 
+.vertical-bottom {
+  vertical-align: bottom;
+}
+
 .width-100 {
   width: 100%;
 }
